@@ -1,17 +1,35 @@
-body{font-size: 20px; }
+.cabecalho {background-color: gray;
+padding: 20px;}
 
-.principal{text-align: center;
-background-color: gray;}
+.caixa{position: relative;
+width: 940px;
+margin: 0 auto;}
 
-.alinhar{text-align: center;}
 
-.destaque{color: red;}
 
-.imagem{width: 100%;}
+nav {position: absolute;
+top: 110px;
+right: 0;}
 
-.lista{ display: inline-block;
-vertical-align: tops;}
 
-.imagem_beneficio{width: 50%;}
+nav li {display: inline;
+margin: 0 0 15px;}
 
-.titulo-principal{padding-left: 20px;}
+
+nav a {text-transform: uppercase;
+color: black;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;}
+
+
+
+
+.produtos {width: 940px;
+margin: 0 auto;
+padding: 50px 0;}
+
+.produtos li {display: inline-block;
+text-align: center;
+width: 30%;
+vertical-align: top;}
